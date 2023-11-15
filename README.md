@@ -176,4 +176,28 @@ python network_port_scanner.py
 ```
 Follow the prompts to enter the target IP range, target ports, and choose whether to export results as a CSV file.
 
+## Step 4: Create a Standalone Executable
+Install PyInstaller:
+Open a terminal or command prompt.
+
+Run the following command to install PyInstaller:
+``` bash
+pip install pyinstaller
+```
+Create the Executable:
+In the same terminal, navigate to the directory where your script is located.
+
+Run the following command to create the executable:
+``` bash
+pyinstaller --onefile network_port_scanner.py
+```
+This command creates a standalone executable file in the dist directory.
+
+Run the Executable:
+- Navigate to the dist directory.
+- Run the generated executable (e.g., network_port_scanner.exe).
+- Test the executable to ensure it behaves as expected.
+
+## Conclusion:
+By following these steps, you should have a working network and port scanner script with the ability to export results as a CSV file. Additionally, you've created a standalone executable for easy distribution. Feel free to customize the script further based on your needs or experiment with additional features.
 
