@@ -24,7 +24,7 @@ Create a new Python script, for example, network_port_scanner.py.
 
 ## Write the Code:
 Copy and paste the following Python code into your script:
-``` bash
+```python
 
 # import scapy.all as scapy
 import socket
